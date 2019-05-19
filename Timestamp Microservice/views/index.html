@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link href="/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Timestamp-Microservice</h1><br/>
+            <p>Timestamp Microservice for FreeCodeCamps API-Projects</p>
+        </header>
+        <div id="container">
+            <section>
+                <h2 class="header">How to use it:</h2>
+                <p>You can use a natural language date matching one of the following formats:</p><br/>
+                <div class="code">
+                <code>
+                    <a href="./api/timestamp/2016-12-02" target="_blank">.../2016-12-02</a><br>
+                    <a href="./api/timestamp/02-12-2016" target="_blank">.../02-12-2016</a><br>
+                    <a href="./api/timestamp/December 2, 2016" target="_blank">.../December 2, 2016</a><br>
+                    <a href="./api/timestamp/December 2 2016" target="_blank">.../December 2 2016</a><br>
+                    <a href="./api/timestamp/Dec 2, 2016" target="_blank">.../Dec 2, 2016</a><br>
+                    <a href="./api/timestamp/Dec 2 2016" target="_blank">.../Dec 2 2016</a><br>
+                    <a href="./api/timestamp/2 December 201" target="_blank">.../2 December 2016</a><br>
+                    <a href="./api/timestamp/2 December 16" target="_blank">.../2 December 16</a><br>
+                    <a href="./api/timestamp/2 Dec 2016" target="_blank">.../2 Dec 2016</a><br>
+                    <a href="./api/timestamp/2 Dec 16" target="_blank">.../2 Dec 16</a><br>
+                </code>
+                </div><br/>
+                <p>Or a Unix-Timestamp:</p><br/>
+                <div class="code">
+                  <code >
+                      <a href="./api/timestamp/1480636800" target="_blank">.../1480636800</a>
+                  </code>
+                </div>
+                
+            </section>
+            <section>
+                <h2 class="header">Output:</h2><br/>
+                <div class="code">
+                  <code>
+                      {<br/>
+                        &ensp;unix: &ensp;1480636800,<br/>
+                        &ensp;natural: "December 2, 2016"<br/>
+                      }
+                  </code>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
