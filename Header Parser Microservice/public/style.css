@@ -1,0 +1,28 @@
+* {
+margin: 0;
+padding:0;
+}
+header{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.header {
+    text-align: center;
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+/*    column-gap: 50px;*/
+/*    width: 100%;*/
+}
+
+.code {
+    background-color:darkgray ;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+}
